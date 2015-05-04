@@ -13,6 +13,7 @@
 		AFD980C41AF59E38007D5591 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD980C31AF59E38007D5591 /* Images.xcassets */; };
 		AFD980C71AF59E38007D5591 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD980C51AF59E38007D5591 /* LaunchScreen.xib */; };
 		AFD980D31AF59E38007D5591 /* scroll_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD980D21AF59E38007D5591 /* scroll_tutorialTests.swift */; };
+		AFD980DD1AF59FF6007D5591 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD980DC1AF59FF6007D5591 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AFD980CC1AF59E38007D5591 /* scroll-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scroll-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD980D11AF59E38007D5591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD980D21AF59E38007D5591 /* scroll_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_tutorialTests.swift; sourceTree = "<group>"; };
+		AFD980DC1AF59FF6007D5591 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				AFD980BC1AF59E38007D5591 /* AppDelegate.swift */,
 				AFD980BE1AF59E38007D5591 /* ViewController.swift */,
 				AFD980C01AF59E38007D5591 /* Main.storyboard */,
+				AFD980DC1AF59FF6007D5591 /* ContentViewController.swift */,
 				AFD980C31AF59E38007D5591 /* Images.xcassets */,
 				AFD980C51AF59E38007D5591 /* LaunchScreen.xib */,
 				AFD980BA1AF59E38007D5591 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD980BF1AF59E38007D5591 /* ViewController.swift in Sources */,
+				AFD980DD1AF59FF6007D5591 /* ContentViewController.swift in Sources */,
 				AFD980BD1AF59E38007D5591 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
